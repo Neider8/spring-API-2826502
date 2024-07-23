@@ -6,10 +6,13 @@ import lombok.Getter;
 import lombok.Setter;
 
 
+
 @AllArgsConstructor
 @Getter
 @Setter
 @Builder
+@Entity
+@Table(name='products')
 public class Producto {
 
     private Long id;
